@@ -30,6 +30,11 @@ public class GhostController : MonoBehaviour {
         vel.y = moveV;
         rb.velocity = vel;
 
+        //Key down on enter functionality
+        if (Input.GetKeyDown(KeyCode.Space)) {
+
+        }
+
         //Make the ghost look the correct direction when moving
         if (vel.x > 0) {
             mySpriteRenderer.sprite = rightSprite;
