@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{439ED3B1-AA07-13EF-0BBB-CD20233D5DA4}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Dialogue.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Dialogue/EmptyTextFile.txt">
     <Files>
       <File FileName="Assets/Scripts/GhostController.cs" Line="33" Column="42" />
-      <File FileName="Assets/Scripts/NPCController.cs" Line="17" Column="88" />
-      <File FileName="Assets/Scripts/DialogueSystem.cs" Line="12" Column="9" />
-      <File FileName="Assets/Scripts/Dialogue.cs" Line="7" Column="2" />
+      <File FileName="Assets/Scripts/NPCController.cs" Line="32" Column="9" />
+      <File FileName="Assets/Scripts/DialogueSystem.cs" Line="26" Column="32" />
+      <File FileName="Assets/Scripts/Dialogue.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/TextImporter.cs" Line="15" Column="3" />
+      <File FileName="Assets/Dialogue/EmptyTextFile.txt" Line="2" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

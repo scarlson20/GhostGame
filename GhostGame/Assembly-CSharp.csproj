@@ -65,6 +65,8 @@
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
     <Compile Include="Assets\Scripts\GhostController.cs" />
     <Compile Include="Assets\Scripts\NPCController.cs" />
+    <Compile Include="Assets\Scripts\TextImporter.cs" />
+    <None Include="Assets\Dialogue\EmptyTextFile.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/Sally/Desktop/GhostGame/GhostGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

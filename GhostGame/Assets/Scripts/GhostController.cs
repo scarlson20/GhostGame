@@ -10,6 +10,7 @@ public class GhostController : MonoBehaviour {
     public Sprite rightSprite;
     public Sprite leftSprite;
     public Sprite stillSprite;
+    public float speed;
 
     // Use this for initialization
 	void Start () {
@@ -28,7 +29,7 @@ public class GhostController : MonoBehaviour {
         Vector2 vel = rb.velocity;
         vel.x = moveH;
         vel.y = moveV;
-        rb.velocity = vel;
+        rb.velocity = speed * vel;
 
         //Key down on enter functionality
         if (Input.GetKeyDown(KeyCode.Space)) {
