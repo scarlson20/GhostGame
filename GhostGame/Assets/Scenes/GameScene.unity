@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 561454645}
   - component: {fileID: 561454644}
   m_Layer: 0
-  m_Name: frankie
+  m_Name: Frankie
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -407,7 +407,7 @@ GameObject:
   - component: {fileID: 697093983}
   - component: {fileID: 697093981}
   m_Layer: 5
-  m_Name: dialogueText
+  m_Name: DialogueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -546,7 +546,7 @@ GameObject:
   - component: {fileID: 1355647298}
   - component: {fileID: 1355647297}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: TextBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
