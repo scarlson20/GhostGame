@@ -204,7 +204,7 @@ MonoBehaviour:
   rightSprite: {fileID: 21300000, guid: 4a939d4e2836b4399b2e31b2fae13d19, type: 3}
   leftSprite: {fileID: 21300000, guid: bc7d822dcc6b14ad0a6d3fb8ba6add26, type: 3}
   stillSprite: {fileID: 21300000, guid: 0047d73aac4964575aea00524d476a3c, type: 3}
-  speed: 45
+  speed: 60
 --- !u!50 &275072649
 Rigidbody2D:
   serializedVersion: 4
@@ -332,10 +332,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ghost: {fileID: 275072645}
   distanceGhost: 0
-  dialogue:
-    sentences:
-    - Hi I'm Frankie
-    - This is chill
+  textFile: {fileID: 4900000, guid: 82b51b524662c486cbf4739db8880deb, type: 3}
+  dialogue: []
+  dialogueRect: {fileID: 2051540466}
+  dialogueTextBox: {fileID: 697093981}
+  textBubble: {fileID: 1355647297}
 --- !u!212 &561454645
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -404,10 +405,9 @@ GameObject:
   m_Component:
   - component: {fileID: 697093980}
   - component: {fileID: 697093983}
-  - component: {fileID: 697093982}
   - component: {fileID: 697093981}
   m_Layer: 5
-  m_Name: Text
+  m_Name: dialogueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -428,8 +428,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 72.34996, y: 127.24989}
-  m_SizeDelta: {x: 59.7, y: 38.1}
+  m_AnchoredPosition: {x: -198, y: 46}
+  m_SizeDelta: {x: 95.9, y: 46}
   m_Pivot: {x: -0.00000008940697, y: 1.0000004}
 --- !u!114 &697093981
 MonoBehaviour:
@@ -463,22 +463,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'This is my Text
+  m_Text: '
 
 '
---- !u!114 &697093982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 697093979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17cfa021c636d4375b5c102b1f862836, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textFile: {fileID: 4900000, guid: 82b51b524662c486cbf4739db8880deb, type: 3}
-  dialogue: []
 --- !u!222 &697093983
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -580,7 +567,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.014863249, y: 0.021341458}
-  m_AnchoredPosition: {x: 333.3, y: 264.7}
+  m_AnchoredPosition: {x: 342.82, y: 316.6}
   m_SizeDelta: {x: 134.4, y: 112.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1355647297
@@ -662,12 +649,12 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

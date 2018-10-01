@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class NPCController : MonoBehaviour
 {
@@ -11,7 +13,8 @@ public class NPCController : MonoBehaviour
     public string[] dialogue;
     private int index = 0;
     public GameObject dialogueRect;
-    public bool showGUI = false;
+    [SerializeField] Text dialogueTextBox;
+    [SerializeField] Image textBubble;
 
     // Use this for initialization
     void Start()
@@ -20,30 +23,31 @@ public class NPCController : MonoBehaviour
         {
             dialogue = (textFile.text.Split('\n'));
         }
+        textBubble.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         distanceGhost = Vector2.Distance(ghost.transform.position, transform.position);
-        if (distanceGhost <= 55 && Input.GetKeyDown(KeyCode.Return))
+        if (distanceGhost <= 100 && Input.GetKeyDown(KeyCode.Return))
         {
-            OnGUI();
+            if (dialogue != null) {
+                StartCoroutine(DialogueRoutine());
+            }
+            textBubble.enabled = false;
         }
 
     }
-    void OnGUI()
+    IEnumerator DialogueRoutine()
     {
-        if (showGUI == false)
+
+        while (index < dialogue.Length)
         {
-            //make visibilty of panel change
-            //put dialogue[index] onto panel
-            showGUI = !showGUI;
+            textBubble.enabled = true;
+            dialogueTextBox.text = dialogue[index].ToString();
+            yield return new WaitForSeconds(3);
             index++;
-        }
-        else
-        {
-            showGUI = !showGUI;
         }
     }
 

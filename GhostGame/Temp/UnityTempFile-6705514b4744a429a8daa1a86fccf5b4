@@ -186,9 +186,6 @@
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
-'Assets/Scripts/Dialogue.cs'
-'Assets/Scripts/DialogueSystem.cs'
 'Assets/Scripts/GhostController.cs'
 'Assets/Scripts/NPCController.cs'
-'Assets/Scripts/TextImporter.cs'
 -lib:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity'
