@@ -30,7 +30,7 @@ public class NPCController : MonoBehaviour
     void Update()
     {
         distanceGhost = Vector2.Distance(ghost.transform.position, transform.position);
-        if (distanceGhost <= 100 && Input.GetKeyDown(KeyCode.Return))
+        if (distanceGhost <= 2 && Input.GetKeyDown(KeyCode.Return))
         {
             if (dialogue != null) {
                 StartCoroutine(DialogueRoutine());

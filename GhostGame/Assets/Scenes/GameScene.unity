@@ -204,7 +204,7 @@ MonoBehaviour:
   rightSprite: {fileID: 21300000, guid: 4a939d4e2836b4399b2e31b2fae13d19, type: 3}
   leftSprite: {fileID: 21300000, guid: bc7d822dcc6b14ad0a6d3fb8ba6add26, type: 3}
   stillSprite: {fileID: 21300000, guid: 0047d73aac4964575aea00524d476a3c, type: 3}
-  speed: 60
+  speed: 5
 --- !u!50 &275072649
 Rigidbody2D:
   serializedVersion: 4
@@ -392,7 +392,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.02, y: -0.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2051540470}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -463,7 +464,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sample Dilalgo Lorem Ipsum Dolor SIt Amet blablablabala.
+  m_Text: 
 --- !u!222 &697093983
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -544,7 +545,7 @@ GameObject:
   - component: {fileID: 1355647298}
   - component: {fileID: 1355647297}
   m_Layer: 5
-  m_Name: TextBox
+  m_Name: TextBubble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -685,15 +686,15 @@ RectTransform:
   m_GameObject: {fileID: 2051540466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.023135621, y: 0.023135621, z: 0.023135621}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 697093980}
   - {fileID: 1355647296}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 561454646}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -4.99, y: 1.9}
+  m_AnchoredPosition: {x: -1.1100001, y: 1.1299999}
   m_SizeDelta: {x: 250, y: 166.936}
   m_Pivot: {x: 0.5, y: 0.5}
