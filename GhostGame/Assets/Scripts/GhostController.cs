@@ -59,9 +59,9 @@ public class GhostController : MonoBehaviour {
 			playerIsMoving = true;
 			transform.Translate(new Vector3(0f, moveV * speed * Time.deltaTime, 0f));
 			lastMove = new Vector2 (0, moveV);
-			if (moveV > 0f) {
+			if (moveV > 0f && moveH == 0f) {
 				mySpriteRenderer.sprite = backSprite;
-			} else {
+			} else if (moveV <0f  && moveH == 0f) {
 				mySpriteRenderer.sprite = stillSprite;
 			}
 		}
