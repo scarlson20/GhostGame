@@ -230,7 +230,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 9.92
+      value: 9.85
       objectReference: {fileID: 0}
     - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
       propertyPath: m_LocalPosition.z
@@ -254,7 +254,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1308130465632332, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
       propertyPath: m_Name
@@ -563,7 +563,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &962881222
 Prefab:
@@ -841,6 +841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1993015117}
   - component: {fileID: 1993015116}
+  - component: {fileID: 1993015118}
   m_Layer: 0
   m_Name: smallHouse2
   m_TagString: Untagged
@@ -903,8 +904,33 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1993015118
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1993015115}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.13524497}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.7, y: 3.15}
+    newSize: {x: 2.7, y: 3.15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.7, y: 2.8795102}
+  m_EdgeRadius: 0
 --- !u!1001 &2018161584
 Prefab:
   m_ObjectHideFlags: 0

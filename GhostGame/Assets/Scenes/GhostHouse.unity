@@ -156,6 +156,21 @@ Prefab:
       propertyPath: ghost
       value: 
       objectReference: {fileID: 275072647}
+    - target: {fileID: 20962197239531228, guid: 8f6685f23fb5c482db65cab36c85c7c6,
+        type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20962197239531228, guid: 8f6685f23fb5c482db65cab36c85c7c6,
+        type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20962197239531228, guid: 8f6685f23fb5c482db65cab36c85c7c6,
+        type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f6685f23fb5c482db65cab36c85c7c6, type: 2}
   m_IsPrefabParent: 0
@@ -342,7 +357,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4779044258393954, guid: eb44f1cf139b24eae98dece08718d695, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 10.8
+      value: 10.69
       objectReference: {fileID: 0}
     - target: {fileID: 4779044258393954, guid: eb44f1cf139b24eae98dece08718d695, type: 2}
       propertyPath: m_LocalPosition.z
