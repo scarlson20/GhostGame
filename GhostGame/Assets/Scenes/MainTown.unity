@@ -264,6 +264,16 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.47
       objectReference: {fileID: 0}
+    - target: {fileID: 114277182024066590, guid: 822a32e52d6774a76b202129d6e816f8,
+        type: 2}
+      propertyPath: levelToLoad
+      value: GhostHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 114277182024066590, guid: 822a32e52d6774a76b202129d6e816f8,
+        type: 2}
+      propertyPath: exitPoint
+      value: Ghost House In
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
   m_IsPrefabParent: 0
@@ -320,6 +330,53 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb44f1cf139b24eae98dece08718d695, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &400126878
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4884398349234438, guid: f2cefa56433ba473e83c6ab1a035dc40, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -14.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884398349234438, guid: f2cefa56433ba473e83c6ab1a035dc40, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884398349234438, guid: f2cefa56433ba473e83c6ab1a035dc40, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884398349234438, guid: f2cefa56433ba473e83c6ab1a035dc40, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884398349234438, guid: f2cefa56433ba473e83c6ab1a035dc40, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884398349234438, guid: f2cefa56433ba473e83c6ab1a035dc40, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884398349234438, guid: f2cefa56433ba473e83c6ab1a035dc40, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884398349234438, guid: f2cefa56433ba473e83c6ab1a035dc40, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114222075955865478, guid: f2cefa56433ba473e83c6ab1a035dc40,
+        type: 2}
+      propertyPath: pointName
+      value: Vampire Town Out
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f2cefa56433ba473e83c6ab1a035dc40, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &596662529
 Prefab:
@@ -506,7 +563,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &962881222
 Prefab:
@@ -846,7 +903,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2018161584
 Prefab:
@@ -901,6 +958,66 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb44f1cf139b24eae98dece08718d695, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &2063651801
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -16.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4759064096792216, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 114277182024066590, guid: 822a32e52d6774a76b202129d6e816f8,
+        type: 2}
+      propertyPath: levelToLoad
+      value: VampireTown
+      objectReference: {fileID: 0}
+    - target: {fileID: 114277182024066590, guid: 822a32e52d6774a76b202129d6e816f8,
+        type: 2}
+      propertyPath: exitPoint
+      value: Vampire Town In
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 822a32e52d6774a76b202129d6e816f8, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &2100653753
 Prefab:
