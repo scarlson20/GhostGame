@@ -66,24 +66,27 @@
     <Compile Include="Assets\Scripts\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\GhostController.cs" />
     <Compile Include="Assets\Scripts\LoadNewArea.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\NPCController.cs" />
     <Compile Include="Assets\Scripts\PlayerStartPoint.cs" />
     <Compile Include="Assets\Scripts\QuestItem.cs" />
     <Compile Include="Assets\Scripts\QuestManager.cs" />
     <Compile Include="Assets\Scripts\QuestObject.cs" />
     <Compile Include="Assets\Scripts\QuestTrigger.cs" />
+    <Compile Include="Assets\Scripts\UIBandCollection.cs" />
     <None Include="Assets\Dialogue\EmptyTextFile.txt" />
+    <None Include="Assets\Pixel Font - Tripfive\_README.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/ichavira/Desktop/current_ghost_game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/ichavira/Desktop/Game Dev/2D_platformer/GhostGame/current_ghost_game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/ichavira/Desktop/current_ghost_game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/ichavira/Desktop/Game Dev/2D_platformer/GhostGame/current_ghost_game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/ichavira/Desktop/current_ghost_game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/ichavira/Desktop/Game Dev/2D_platformer/GhostGame/current_ghost_game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/ichavira/Desktop/current_ghost_game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/ichavira/Desktop/Game Dev/2D_platformer/GhostGame/current_ghost_game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

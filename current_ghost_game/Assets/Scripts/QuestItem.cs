@@ -13,6 +13,7 @@ public class QuestItem : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         theQM = FindObjectOfType<QuestManager>();
+        theQM.quests[questNumber].gameObject.SetActive(false);
 	}
 	
 	// Update is called once per frame

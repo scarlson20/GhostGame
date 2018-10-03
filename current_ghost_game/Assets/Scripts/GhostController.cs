@@ -24,8 +24,13 @@ public class GhostController : MonoBehaviour {
 
 	public bool canMove;
 
+    //UI Variables
+    private UIBandCollection bandPanel;
+
     // Use this for initialization
 	void Start () {
+        bandPanel = GameObject.FindObjectOfType<UIBandCollection>();
+        bandPanel.SetPanelStart();
 		rb = GetComponent<Rigidbody2D> ();
 		mySpriteRenderer = GetComponent<SpriteRenderer> ();
 		if (!playerExists) {
@@ -85,5 +90,25 @@ public class GhostController : MonoBehaviour {
 
         }
 
+    }
+
+    //handles collisions with instruments
+    void OnTriggerEnter2D(Collider2D other)
+    {
+    
+        if (other.CompareTag("Piano"))
+        {
+            bandPanel.SetPanel("Piano");
+        }
+        if (other.CompareTag("Guitar"))
+        {
+            bandPanel.SetPanel("Guitar");
+        }
+        if (other.CompareTag("Drums")) {
+            bandPanel.SetPanel("Drums");
+        }
+        if (other.CompareTag("Bass")){
+            bandPanel.SetPanel("Bass");
+        }
     }
 }

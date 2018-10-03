@@ -795,7 +795,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: 
   dialogueLines:
-  - so much garlic!
+  - You're making a band?
+  - I'm the best bass player in these haunted parts. I'll join if you do me a huge
+    favor.
+  - My ex-girlfriend hid a piece of garlic in my house so I can't enter.
+  - If you get the garlic out of my house I'll be in your band.
 --- !u!61 &2000717720
 BoxCollider2D:
   m_ObjectHideFlags: 0

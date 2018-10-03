@@ -28,9 +28,9 @@ public class QuestTrigger : MonoBehaviour
     {
         if (other.gameObject.name == "Ghost")
         {
-            if(!theQM.questCompleted[questNumber])
+            if(!theQM.questCompleted[questNumber] && (startQuest == true))
             {
-                
+                theQM.quests[questNumber].gameObject.SetActive(true);
             }
         }
     }

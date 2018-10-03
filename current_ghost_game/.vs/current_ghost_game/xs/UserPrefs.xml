@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{15775380-2B36-8DE9-6C0D-0FB747A09C82}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Pixel Font - Tripfive/_README.txt">
+    <Files>
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="20" Column="46" />
+      <File FileName="Assets/Pixel Font - Tripfive/_README.txt" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
