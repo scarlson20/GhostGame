@@ -1,11 +1,12 @@
 fileFormatVersion: 2
 guid: fd31899d4d4294da6a2186793d5178ca
-timeCreated: 1538423472
+timeCreated: 1538554574
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: tall_autumn_tree
     21300002: autumn-trees_0
+    21300004: pumpkin1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -128,6 +129,20 @@ TextureImporter:
         - {x: 15.5, y: 1}
         - {x: 12.5, y: -2}
         - {x: 13.5, y: -4}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: pumpkin1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 30
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
     outline:

@@ -22,6 +22,8 @@ public class GhostController : MonoBehaviour {
 	private static bool playerExists;
 	public string startPoint;
 
+	public bool canMove;
+
     // Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
@@ -40,6 +42,11 @@ public class GhostController : MonoBehaviour {
     private void FixedUpdate()
     {	
 		playerIsMoving = false;
+
+		if (!canMove) {
+			rb.velocity = Vector2.zero;
+			return;
+		}
 
         // Make the ghost move with the arrow keys
         float moveH = Input.GetAxis("Horizontal");
