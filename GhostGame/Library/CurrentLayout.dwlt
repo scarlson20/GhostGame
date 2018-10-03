@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 32
+    x: 49
     y: 45
     width: 1180
     height: 687
@@ -90,8 +90,8 @@ MonoBehaviour:
     y: 0
     width: 251
     height: 366
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -123,7 +123,7 @@ MonoBehaviour:
   - {fileID: 20}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -370,8 +370,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 32
-    y: 460
+    x: 0
+    y: 385
     width: 831
     height: 250
   m_SearchFilter:
@@ -386,19 +386,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Sprites
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/ichavira/Desktop/Game Dev/2D_platformer/GhostGame/GhostGame
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5e2a0000
-    m_LastClickedID: 10846
-    m_ExpandedIDs: 00000000322700003a28000000ca9a3bffffff7f
+    m_SelectedIDs: 4a270000
+    m_LastClickedID: 10058
+    m_ExpandedIDs: 000000002c2700004828000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -426,7 +426,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000322700003a280000
+    m_ExpandedIDs: 000000002c27000048280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -454,7 +454,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000fc0a0000aa2f00009e33000018300000e429000018370000d8280000c6270000
+    m_ExpandedInstanceIDs: c6230000fc0a0000aa2f00009e33000018300000e429000018370000d8280000c627000062280000ae27000060270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -478,7 +478,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 180}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
 --- !u!114 &16
@@ -503,8 +503,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 867
-    y: 94
+    x: 835
+    y: 19
     width: 345
     height: 616
   m_ScrollPosition: {x: 0, y: 0}
@@ -536,15 +536,15 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 32
-    y: 94
+    x: 0
+    y: 19
     width: 249
     height: 345
   m_TreeViewState:
-    scrollPos: {x: 0, y: 392}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 6246f6ff40b3f6fff2b6f6ff9caffaff5eb7faffaeb9fbffbcbafbff38bcfbffd8c5fbff5ee4fbff50f4fbff5cfffbff7405fcff580dfcffaa0efcff2c12fcff081ffcff4c2cfcff3091fcff18e1fcff38e2fcffa2e3fcfff2e4fcff3003fdffee0cfdfff221fdff8223fdfffc43fdff1a45fdffd24bfdff7e62fdff5867fdff4469fdffa873fdff5477fdff5e79fdff7c83fdff0c92fdfff4dafdff9e11feff4a41feff9adafeff56eafeff2678ffff4081ffff0e9bffff2cbaffffd6f7ffffa6fbffff00000000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 48a6f9ff
+    m_LastClickedID: -416184
+    m_ExpandedIDs: 78a8f9ff94b0f9ff24b7f9ff72bef9ffec00faffac16faff201efafffa40faff0841faff1241faff3441faffec48fafffa48faff2649faff0e4dfafff466faffd46dfaffc084faffc48bfaff08a3faff16a3faffdca4fafff8b0faff0ed1faffaed7faffd82cfbff4033fbffd857fbfff4aafbff5cd4fbff18dafbffa4f9fbff2a02fcff8e2ffcff6437fcffa03ffcff644bfcff564efcff6c56fcff7a63fcff8e75fcff2081fcff4884fcff8c92fcff7895fcff2c9cfcffd69efcff8ca5fcff7606fdffde17fdff82e3fdff6cecfdff84f6fdffd629feff2a2dfeffc02efeffda2ffeff9a31feffcc32feff7e34feff84a8feffa22fffffee53ffff9058ffff7a6ffffff27dfffff2e9ffff30f3ffffa6fbffff000000005e3500006435000088350000a0350000a4390000ac390000d0390000003b0000243b00003c3b0000123c0000363c0000243d0000483d0000983d0000703f0000943f0000e43f0000ec3f00001040000030420000384200005c420000f84400000045000024450000464700006c4a0000344d00004a4d0000065000000e550000d2560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -563,7 +563,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - VMansion2
+  - GhostHouse
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 285
+    x: 302
     y: 94
     width: 578
     height: 345
@@ -599,9 +599,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.689118, y: 5.9306846, z: -0.033315394}
+    m_Target: {x: 0.5696891, y: 8.143602, z: -3.1296206}
     speed: 2
-    m_Value: {x: -13.689118, y: 5.9306846, z: -0.033315394}
+    m_Value: {x: 0.5696891, y: 8.143602, z: -3.1296206}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -628,9 +628,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.60918
+    m_Target: 19.965822
     speed: 2
-    m_Value: 12.60918
+    m_Value: 19.965822
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -664,7 +664,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 285
+    x: 275
     y: 94
     width: 578
     height: 345
@@ -740,7 +740,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 9
+    x: 129
     y: 460
     width: 831
     height: 250
