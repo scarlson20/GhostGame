@@ -22,10 +22,9 @@ GameObject:
   - component: {fileID: 212550021115950556}
   - component: {fileID: 50141502944205104}
   - component: {fileID: 114171194122838722}
-  - component: {fileID: 61049356312204660}
   m_Layer: 0
   m_Name: Ghost
-  m_TagString: Untagged
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,7 +53,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.6640521
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -63,31 +62,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &61049356312204660
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1256815230533610}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.015032589}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8, y: 0.8}
-    newSize: {x: 0.4, y: 0.4}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.8, y: 0.83006513}
-  m_EdgeRadius: 0
 --- !u!114 &114171194122838722
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -99,13 +73,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ac1a74ab079472ca726d06ffe16a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2.5
   rightSprite: {fileID: 21300000, guid: 4a939d4e2836b4399b2e31b2fae13d19, type: 3}
   leftSprite: {fileID: 21300000, guid: bc7d822dcc6b14ad0a6d3fb8ba6add26, type: 3}
   stillSprite: {fileID: 21300000, guid: 0047d73aac4964575aea00524d476a3c, type: 3}
   backSprite: {fileID: 21300000, guid: a6116068b2da444c9a347184608e4cc1, type: 3}
   lastMove: {x: 0, y: 0}
   startPoint: 
+  canMove: 0
 --- !u!212 &212550021115950556
 SpriteRenderer:
   m_ObjectHideFlags: 1

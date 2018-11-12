@@ -6,12 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainTown.unity
-    guid: d507e254404654945bd2fbf8fdd91bfa
+    path: Assets/Scenes/StartMenu.unity
+    guid: 5337314a4af3b4058b955e525c1fda1d
+  - enabled: 1
+    path: Assets/Scenes/StorySetup.unity
+    guid: add8447af47fc436c8f098f71a7cc17b
   - enabled: 1
     path: Assets/Scenes/GhostHouse.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/MainTown.unity
+    guid: d507e254404654945bd2fbf8fdd91bfa
+  - enabled: 1
     path: Assets/Scenes/Graveyard.unity
     guid: 57506cc8a016646bc828b20619fc304c
+  - enabled: 1
+    path: Assets/Scenes/VampireTown.unity
+    guid: eacc439821e894daa8bcdb0614dc77e7
+  - enabled: 1
+    path: Assets/Scenes/VMansion1.unity
+    guid: 77483938909ca4b5c9720781f4d33b71
+  - enabled: 1
+    path: Assets/Scenes/VMansion2.unity
+    guid: dd1b11d4e4c6f45e29888fcbd0f3822a
+  - enabled: 1
+    path: Assets/Scenes/EndGame.unity
+    guid: 7d8a7ae94bd484c16bb8d69f2fbdf19e
   m_configObjects: {}

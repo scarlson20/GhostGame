@@ -6,12 +6,15 @@ public class PlayerStartPoint : MonoBehaviour {
 
 	private GhostController myPlayer;
 	private CameraController myCamera;
+
+    // variables to set player movement and sprite direction
 	public Vector2 startDirection;
 	public string pointName;
 	// Use this for initialization
 	void Start () {
 		myPlayer = FindObjectOfType<GhostController> ();
 
+        // Spawns player in correct area after changing scenes
 		if (myPlayer.startPoint == pointName) {
 			
 			myPlayer.transform.position = transform.position;

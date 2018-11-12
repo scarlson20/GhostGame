@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - NPC
+  - Piano
+  - Guitar
+  - Ghost
+  - Drums
+  - Bass
   layers:
   - Default
   - TransparentFX

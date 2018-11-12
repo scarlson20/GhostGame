@@ -17,13 +17,20 @@ public class GhostController : MonoBehaviour {
 	// player movement helper variables
 	private bool playerIsMoving;
 	public Vector2 lastMove;
+    public bool canMove;
 
-	// helper variables for changing areas
-	private static bool playerExists;
+    // helper variables for changing areas
+    private static bool playerExists;
 	public string startPoint;
 
+
+    //UI Variables
+    private UIBandCollection bandPanel;
+
     // Use this for initialization
-	void Start () {
+    void Start () {
+        bandPanel = GameObject.FindObjectOfType<UIBandCollection>();
+        bandPanel.SetPanelStart();
 		rb = GetComponent<Rigidbody2D> ();
 		mySpriteRenderer = GetComponent<SpriteRenderer> ();
 		if (!playerExists) {
@@ -41,6 +48,11 @@ public class GhostController : MonoBehaviour {
     {	
 		playerIsMoving = false;
 
+		if (!canMove) {
+			rb.velocity = Vector2.zero;
+			return;
+		}
+
         // Make the ghost move with the arrow keys
         float moveH = Input.GetAxis("Horizontal");
         float moveV = Input.GetAxis("Vertical");
@@ -49,6 +61,8 @@ public class GhostController : MonoBehaviour {
 			playerIsMoving = true;
 			transform.Translate(new Vector3(moveH * speed * Time.deltaTime, 0f, 0f));
 			lastMove = new Vector2 (moveH, 0f);
+
+            // Update player sprite
 			if (moveH > 0f) {
 				mySpriteRenderer.sprite = rightSprite;
 			} else {
@@ -59,9 +73,11 @@ public class GhostController : MonoBehaviour {
 			playerIsMoving = true;
 			transform.Translate(new Vector3(0f, moveV * speed * Time.deltaTime, 0f));
 			lastMove = new Vector2 (0, moveV);
-			if (moveV > 0f) {
+
+            // Update player sprite
+			if (moveV > 0f && moveH == 0f) {
 				mySpriteRenderer.sprite = backSprite;
-			} else {
+			} else if (moveV <0f  && moveH == 0f) {
 				mySpriteRenderer.sprite = stillSprite;
 			}
 		}
@@ -73,10 +89,31 @@ public class GhostController : MonoBehaviour {
 			mySpriteRenderer.sprite = stillSprite;
 		}
 
-        //Key down on enter functionality
-        if (Input.GetKeyDown(KeyCode.Space)) {
+    }
 
+    //handles collisions with instruments and then removes the instrument after collection
+    void OnTriggerEnter2D(Collider2D other)
+    {
+    
+        if (other.CompareTag("Piano"))
+        {
+            bandPanel.SetPanel("Piano");
+            Destroy(other);
         }
-
+        if (other.CompareTag("Guitar"))
+        {
+            bandPanel.SetPanel("Guitar");
+            other.gameObject.SetActive(false);
+        }
+        if (other.CompareTag("Drums")) 
+        {
+            bandPanel.SetPanel("Drums");
+            other.gameObject.SetActive(false);
+        }
+        if (other.CompareTag("Bass"))
+        {
+            bandPanel.SetPanel("Bass");
+            other.gameObject.SetActive(false);
+        }
     }
 }
