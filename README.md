@@ -9,6 +9,6 @@ There is a Witch, Vampire, Frankenstein, and Skeleton that must be found in orde
 # Final Build
 The final WebGL build is available online here: http://dis.benno-lueders.de/2018FallGames/2DPlatformer/GuitarFearo/
 
-#Contributors
+# Contributors
 
 This game was built by Sally Carlson, Izzy Chavira, and Claire Collver for DIS Study Abroad core course in Game Development: Programming and Practice
