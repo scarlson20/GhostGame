@@ -1,6 +1,6 @@
 # Overview
 
-This game is a 2D story based game in which a ghost who is forming a band and must go through different obstacles to find band members. It was built in two weeks for a school project on 2D games.
+This game is a 2D story based game in which a ghost who is forming a band and must go through different obstacles to find band members. It was built in a week and a half for a school project on 2D games.
 
 # Characters
 
@@ -8,3 +8,7 @@ There is a Witch, Vampire, Frankenstein, and Skeleton that must be found in orde
 
 # Final Build
 The final WebGL build is available online here: http://dis.benno-lueders.de/2018FallGames/2DPlatformer/GuitarFearo/
+
+#Contributors
+
+This game was built by Sally Carlson, Izzy Chavira, and Claire Collver for DIS Study Abroad core course in Game Development: Programming and Practice
